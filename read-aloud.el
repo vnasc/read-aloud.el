@@ -31,7 +31,7 @@
     (cmd "say" args nil)
     ))
 
-(defvar read-aloud-max 160)		; chars
+(defvar read-aloud-max 1000)		; chars
 (defface read-aloud-text-face '((t :inverse-video t))
   "For highlighting the text that is being read")
 
